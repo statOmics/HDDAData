@@ -1,5 +1,5 @@
 Package: HDDAData
-Title: What the Package Does (One Line, Title Case)
+Title: Datasets for the High Dimensional Data Analysis course
 Version: 0.0.1
 Authors@R: 
     person(given = "Milan",
@@ -7,9 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "milan.malfait94@gmail.com",
            comment = c(ORCID = "0000-0001-9144-3701"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Provide easy access from R to datasets used in the High Dimensional
+    Data Analysis course taught at Ghent University.
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
