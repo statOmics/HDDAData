@@ -5,7 +5,7 @@
 \alias{Alon1999}
 \title{Gene expression data from Alon et al. (1999)}
 \format{
-A data frame with 62 rows and 2001 variables:
+A \code{data.frame} with 62 rows and 2001 variables:
 \itemize{
 \item \code{Y}: Grouping variable indicating whether a sample is from tumor
 (\code{t}) or normal (\code{n}) tissue
