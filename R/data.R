@@ -38,3 +38,56 @@
 #'
 #' @source \url{https://www3.nd.edu/~busiforc/handouts/Data%20and%20Stories/multicollinearity/Cheese%20Taste/Cheddar%20Cheese%20Data.html}
 "cheese"
+
+#' Heavy metals near the river Schelde
+#'
+#' Concentrations of 8 heavy metals were measured on 19 different locations
+#' along the river Schelde, each time at a depth of 5 cm and at a depth of 20
+#' cm. Vicinity to the river was 0 (far) or 1 (close).
+#'
+#' @format A `data.frame` with 19 rows and 18 variables:
+#' \describe{
+#'   \item{location}{Location number}
+#'   \item{Cd5}{Concentration of Cadmium in mg/kg at 5 cm depth}
+#'   \item{Cd20}{Concentration of Cadmium in mg/kg at 20 cm depth}
+#'   \item{Cr5}{Concentration of Chromium in mg/kg at 5 cm depth}
+#'   \item{Cr20}{Concentration of Chromium in mg/kg at 20 cm depth}
+#'   \item{Cu5}{Concentration of Copper in mg/kg at 5 cm depth}
+#'   \item{Cu20}{Concentration of Copper in mg/kg at 20 cm depth}
+#'   \item{Fe5}{Concentration of Iron in mg/kg at 5 cm depth}
+#'   \item{Fe20}{Concentration of Iron in mg/kg at 20 cm depth}
+#'   \item{Mn5}{Concentration of Manganese in mg/kg at 5 cm depth}
+#'   \item{Mn20}{Concentration of Manganese in mg/kg at 20 cm depth}
+#'   \item{Ni5}{Concentration of Nickel in mg/kg at 5 cm depth}
+#'   \item{Ni20}{Concentration of Nickel in mg/kg at 20 cm depth}
+#'   \item{Pb5}{Concentration of Lead in mg/kg at 5 cm depth}
+#'   \item{Pb20}{Concentration of Lead in mg/kg at 20 cm depth}
+#'   \item{Zn5}{Concentration of Zinc in mg/kg at 5 cm depth}
+#'   \item{Zn20}{Concentration of Zinc in mg/kg at 20 cm depth}
+#'   \item{river}{Vicinity to the river: `0` (far) or `1` (close)}
+#' }
+"heavymetals"
+
+#' Cold-war era employment in 26 European countries across different sectors
+#'
+#' Distribution of employment across 9 industrial sectors in 26 European
+#' countries. The dataset stems from the Cold-War era. The values are the
+#' percentages of the working population active in a given sector. Each row
+#' should sum to 100.
+#'
+#' @format A `data.frame` with 26 observations and 10 variables:
+#' \describe{
+#'   \item{country}{The country name}
+#'   \item{agriculture}{Employment in the agriculture sector, in percentage}
+#'   \item{mining}{Employment in the mining sector, in percentage}
+#'   \item{manufacturing}{Employment in the manufacturing sector, in percentage}
+#'   \item{power.supply}{Employment in the power-supply sector, in percentage}
+#'   \item{construction}{Employment in the construction sector, in percentage}
+#'   \item{services}{Employment in the services sector, in percentage}
+#'   \item{finance}{Employment in the finance sector, in percentage}
+#'   \item{social.sector}{Employment in the social sector sector, in percentage}
+#'   \item{transport}{Employment in the transport sector, in percentage}
+#' }
+#'
+#' @format
+"industries"
