@@ -18,11 +18,9 @@ A \code{data.frame} with 26 observations and 10 variables:
 \item{social.sector}{Employment in the social sector sector, in percentage}
 \item{transport}{Employment in the transport sector, in percentage}
 }
-
-
 }
 \usage{
-industries
+data(industries)
 }
 \description{
 Distribution of employment across 9 industrial sectors in 26 European

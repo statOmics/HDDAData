@@ -13,7 +13,7 @@ A \code{data.frame} with 62 rows and 2001 variables:
 }
 }
 \usage{
-Alon1999
+data(Alon1999)
 }
 \description{
 Gene expression levels from 40 tumor and 22 normal colon tissue samples. A

@@ -12,6 +12,8 @@
 #'
 #'   * \code{X1 - X2000}: Gene expression intensity levels for 2000 genes
 #'
+#' @usage data(Alon1999)
+#'
 #' @references
 #' Alon, U. *et al.* (1999). "Broad Patterns of Gene Expression Revealed by
 #' Clustering Analysis of Tumor and Normal Colon Tissues Probed by
@@ -36,6 +38,8 @@
 #'   \item{H2S}{Natural log of concentration of hydrogen sulfide}
 #'   \item{Lactic}{Concentration of lactic acid}
 #' }
+#'
+#' @usage data(cheese)
 #'
 #' @source \url{https://www3.nd.edu/~busiforc/handouts/Data%20and%20Stories/multicollinearity/Cheese%20Taste/Cheddar%20Cheese%20Data.html}
 "cheese"
@@ -68,6 +72,8 @@
 #'   \item{Zn20}{Concentration of Zinc in mg/kg at 20 cm depth}
 #'   \item{river}{Vicinity to the river: `0` (far) or `1` (close)}
 #' }
+#'
+#' @usage data(heavymetals)
 "heavymetals"
 
 
@@ -92,7 +98,7 @@
 #'   \item{transport}{Employment in the transport sector, in percentage}
 #' }
 #'
-#' @format
+#' @usage data(industries)
 "industries"
 
 
@@ -110,6 +116,8 @@
 #'     kidney was rejected (`1`) or not (`0`).
 #'   * Remaining: gene expression levels for 10.000 genes. These were randomly
 #'     selected from the 25% most variable genes in the original data
+#'
+#' @usage data(Einecke2010Kidney)
 #'
 #' @references
 #' Einecke, G. *et al.* (2010) "A molecular classifier for predicting future graft

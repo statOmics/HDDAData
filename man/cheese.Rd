@@ -18,7 +18,7 @@ A \code{data.frame} with 30 rows and 5 variables:
 \url{https://www3.nd.edu/~busiforc/handouts/Data\%20and\%20Stories/multicollinearity/Cheese\%20Taste/Cheddar\%20Cheese\%20Data.html}
 }
 \usage{
-cheese
+data(cheese)
 }
 \description{
 This dataset contains concentrations of various chemicals in 30 samples of

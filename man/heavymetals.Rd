@@ -28,7 +28,7 @@ A \code{data.frame} with 19 rows and 18 variables:
 }
 }
 \usage{
-heavymetals
+data(heavymetals)
 }
 \description{
 Concentrations of 8 heavy metals were measured on 19 different locations

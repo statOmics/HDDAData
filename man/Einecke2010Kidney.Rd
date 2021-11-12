@@ -14,7 +14,7 @@ selected from the 25\% most variable genes in the original data
 }
 }
 \usage{
-Einecke2010Kidney
+data(Einecke2010Kidney)
 }
 \description{
 Gene expression data from patients receiving kidney transplantation, measured
