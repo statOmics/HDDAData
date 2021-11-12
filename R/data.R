@@ -19,6 +19,7 @@
 #' [doi:10.1073/pnas.96.12.6745](https://doi.org/10.1073/pnas.96.12.6745)
 "Alon1999"
 
+
 #' Cheddar cheese taste
 #'
 #' This dataset contains concentrations of various chemicals in 30 samples of
@@ -38,6 +39,7 @@
 #'
 #' @source \url{https://www3.nd.edu/~busiforc/handouts/Data%20and%20Stories/multicollinearity/Cheese%20Taste/Cheddar%20Cheese%20Data.html}
 "cheese"
+
 
 #' Heavy metals near the river Schelde
 #'
@@ -68,6 +70,7 @@
 #' }
 "heavymetals"
 
+
 #' Cold-war era employment in 26 European countries across different sectors
 #'
 #' Distribution of employment across 9 industrial sectors in 26 European
@@ -91,3 +94,26 @@
 #'
 #' @format
 "industries"
+
+
+#' Kidney transplant gene expression data from Einecke et al. (2010)
+#'
+#' Gene expression data from patients receiving kidney transplantation, measured
+#' using microarrays. The original data consists of 54675 genes from 282
+#' patients. This data set contains a random subset of 250 patients and 10.000
+#' of the 25% most variable genes. For each patient, the rejection status of the
+#' kidney transplant is recorded as well as the expression levels of each gene.
+#'
+#' @format A `data.frame` with patients (250) as rows and 10.001 features as columns:
+#'
+#'   * `Reject_Status`: Binary variable indicating whether the transplanted
+#'     kidney was rejected (`1`) or not (`0`).
+#'   * Remaining: gene expression levels for 10.000 genes. These were randomly
+#'     selected from the 25% most variable genes in the original data
+#'
+#' @references
+#' Einecke, G. *et al.* (2010) "A molecular classifier for predicting future graft
+#' loss in late kidney transplant biopsies", *The Journal of Clinical
+#' Investigation*, **120**(6), pp. 1862–1872.
+#' [doi:10.1172/JCI41789](https://doi.org/10.1172/JCI41789).
+"Einecke2010Kidney"
