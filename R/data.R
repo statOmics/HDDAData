@@ -125,3 +125,23 @@
 #' Investigation*, **120**(6), pp. 1862–1872.
 #' [doi:10.1172/JCI41789](https://doi.org/10.1172/JCI41789).
 "Einecke2010Kidney"
+
+
+#' Food consumption in the UK
+#'
+#' This data set originates from the UKs ‘Department for Environment, Food and
+#' Rural Affairs’ (DEFRA), showing the consumption in grams (per person, per
+#' week) of 17 different types of foodstuff measured and averaged in the four
+#' countries of the United Kingdom in 1997.
+#'
+#' @format A `data.frame` with 17 rows representing the foodstuffs and 4 columns
+#'   representing each country:
+#' \describe{
+#'   \item{England}{Average consumption in grams per person per week in England}
+#'   \item{Wales}{Average consumption in grams per person per week in Wales}
+#'   \item{Scotland}{Average consumption in grams per person per week in Scotland}
+#'   \item{N.Ireland}{Average consumption in grams per person per week in Northern Ireland}
+#' }
+#'
+#' @usage data(ukFoods)
+"ukFoods"
