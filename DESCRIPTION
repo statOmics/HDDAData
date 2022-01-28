@@ -1,6 +1,7 @@
 Package: HDDAData
 Title: Datasets for the High Dimensional Data Analysis course
-Version: 0.0.3
+Date: 2022-01-28
+Version: 1.0.0
 Authors@R: 
     person(given = "Milan",
            family = "Malfait",
