@@ -145,3 +145,30 @@
 #'
 #' @usage data(ukFoods)
 "ukFoods"
+
+
+#' The Bardet-Biedl syndrome gene expression data from Scheetz et al. (2006)
+#'
+#' Gene expression data from the microarray study by Scheetz et al. (2006). This
+#' data is also available in the `flare` and `NormalBetaPrime` packages.
+#'
+#' @format This data consists of a list with the following two objects:
+#' \describe{
+#'   \item{genes}{is a design matrix with 120 rows and 200 columns.}
+#'   \item{trim32}{is a numeric vector with 120 samples of gene expression levels of the TRIM32 gene.}
+#' }
+#'
+#' @details
+#' The data set contains gene expression data (200 genes for 120 samples) and
+#' gene expression levels of TRIM32 from the microarray experiments of mammalian
+#' eye tissue samples of Scheetz et al. (2006).
+#'
+#' @references
+#' Scheetz, T. E., Kim K.-Y. A., Swiderski R. E., Philp A. R., Braun, T. A.,
+#' Knudtson, K. L., Dorrance, A. M., DiBona, G. F., Huang, J., Casavant, T. L.,
+#' Sheffield, V. C., and Stone, E. M. (2006). "Regulation of gene expression in
+#' the mammalian eye and its relevance to eye disease." Proceedings of the
+#' National Academy of Sciences, 103(39):14429-14434.
+#'
+#' @usage data(eyedata)
+"eyedata"
